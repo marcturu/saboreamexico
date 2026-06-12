@@ -6,7 +6,7 @@ Desarrollado como parte de la asignatura Herramientas HTML y CSS I del Máster U
 
 ### Páginas
 
-- **Inicio** — página de presentación con recetas destacadas e informaicón sobre las regiones de México
+- **Inicio** — página de presentación con recetas destacadas e informaicón sobre algunas regiones de México
 - **Recetas** — conjunto de 4 recetas típicas mexicanas
 - **Tacos** — página personalizada que presenta información sobre la historia de los **tacos**, sus ingredientes y como prepararlos
 - **Nachos** — página personalizada que presenta información sobre la historia de los **nachos**, sus ingredientes y como prepararlos
