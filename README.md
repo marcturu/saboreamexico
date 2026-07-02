@@ -139,5 +139,3 @@ src/
 │       ├── components/     # BEM components
 │       └── utilities/      # Utility classes
 ```
-
----
