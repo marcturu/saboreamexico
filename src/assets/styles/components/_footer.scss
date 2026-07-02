@@ -51,36 +51,34 @@
       outline-offset: 4px;
       border-radius: 2px;
     }
+  }
 
-    &__nav {
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: v.$spacing-xs;
-      }
+  &__nav {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: v.$spacing-xs;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: v.$color-background;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: v.$color-primary;
     }
 
-    &__link {
-      text-decoration: none;
-      color: v.$color-background;
-      font-size: 0.9rem;
-      transition: color 0.3s ease;
-
-      &:hover {
-        color: v.$color-primary;
-      }
-
-      &:focus-visible {
-        outline: 3px solid v.$color-primary;
-        outline-offset: 4px;
-        border-radius: 2px;
-      }
+    &:focus-visible {
+      outline: 3px solid v.$color-primary;
+      outline-offset: 4px;
+      border-radius: 2px;
     }
+  }
 
-    &__copy {
-      font-size: 0.8rem;
-      color: f.color-alpha(v.$color-background, 0.6);
-      margin: 0;
-    }
+  &__copy {
+    margin: 0;
   }
 }

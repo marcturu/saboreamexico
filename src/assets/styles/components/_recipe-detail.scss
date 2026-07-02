@@ -137,6 +137,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 0.5rem;
+    aspect-ratio: 16 / 9;
     padding-bottom: 56.25%;
     height: 0;
     box-shadow: 0 0 10px f.color-alpha(v.$color-text, 0.5);
@@ -198,7 +199,16 @@
   
   img {
     width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
     display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.025);
+    opacity: 0.935;
   }
 
   &__btn {

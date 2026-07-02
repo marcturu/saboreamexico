@@ -1,5 +1,5 @@
 {
-  "name": "uoc-ehtmlcss1-marctururoca",
+  "name": "saboreamexico",
   "version": "1.0.0",
   "source": [
     "src/index.html",
@@ -19,8 +19,8 @@
     "stylelint": "stylelint src/**/*.scss"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Marc Turu Roca",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.16.4",
