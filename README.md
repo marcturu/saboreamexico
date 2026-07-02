@@ -13,7 +13,6 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 - **Tacos Page**: a dedicated page covering the history of **tacos**, their ingredients, and how to prepare them.
 - **Nachos Page**: a dedicated page covering the history of **nachos**, their ingredients, and how to prepare them.
 - **Sources Page**: documentation and links to the sources consulted throughout the project's development.
-- **Responsive Design**, built using a *mobile-first* approach.
 
 ---
 
