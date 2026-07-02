@@ -1,65 +1,113 @@
-# <img src="src/assets/images/SaboreaMexico.png" alt="LetsManage" width="100"/> — Saborea México
+# <img src="src/assets/images/SaboreaMexico.png" alt="Saborea Mexico" width="100"/> — Saborea México
 
-Sitio web sobre la **gastronomía mexicana** y sus recetas.
+<sub>🗓️ Developed in April 2026</sub>
 
-Desarrollado como parte de la asignatura Herramientas HTML y CSS I del Máster Universitario de Desarrollo de Sitios y Aplicaciones Web de la [Universitat Oberta de Catalunya](https://www.uoc.edu).
+This project is a **website** dedicated to **Mexican gastronomy and its recipes**.
 
-### Páginas
+---
 
-- **Inicio** — página de presentación con recetas destacadas e informaicón sobre algunas regiones de México
-- **Recetas** — conjunto de 4 recetas típicas mexicanas
-- **Tacos** — página personalizada que presenta información sobre la historia de los **tacos**, sus ingredientes y como prepararlos
-- **Nachos** — página personalizada que presenta información sobre la historia de los **nachos**, sus ingredientes y como prepararlos
-- **Fuentes** — documentació y enlaces de las fuentes consultadas durante el desarrollo del proyecto
+## ✅ Features
 
-### Metodología
+- **Home Page**: landing page presenting featured recipes and information about several regions of Mexico.
+- **Recipes Page**: a collection of 4 typical Mexican recipes.
+- **Tacos Page**: a dedicated page covering the history of **tacos**, their ingredients, and how to prepare them.
+- **Nachos Page**: a dedicated page covering the history of **nachos**, their ingredients, and how to prepare them.
+- **Sources Page**: documentation and links to the sources consulted throughout the project's development.
+- **Responsive Design**, built using a *mobile-first* approach.
 
-- **ITCSS** — arquitectura de estilos (settings, tools, generic, elements, objects, components, utilities)
-- **BEM** — convención de nomenclatura para clases CSS
-- **OOCSS** — clases de objetos reutilizables (`o-container`, `o-section`)
-- Diseño responsive *mobile-first*
+---
 
-## Desarrollado con
+## 🛠 Installation & Setup
 
-### Requisitos
+### a0. Prerequisites
+Make sure you have installed:
+- **[Node.js](http://nodejs.org/) 20.x** or higher
 
-[Node.js](http://nodejs.org/) >= 20.x
+Check the version:
+```bash
+node -v
+```
 
-### Núcleo
+### a1. Clone the repository
+```bash
+git clone https://github.com/marcturu/saboreamexico.git
+cd saboreamexico
+```
 
-| Tecnología | Uso |
+### a2. Install dependencies
+```bash
+npm install
+```
+
+### a3. Run locally
+```bash
+npm run start
+```
+The app will be available at **http://localhost:1234**, with live reload enabled.
+
+### b1. Try the website
+You can try the deployed version directly in the browser:
+
+- **Netlify (browser testing):**
+  WebApp: [https://saboreamexico.netlify.app/](https://saboreamexico.netlify.app/)
+
+> ℹ️ **Deployment details:**
+> The project is deployed on [Netlify](https://netlify.com) from the `main` branch.
+> - **Build command:** `npm run build`
+> - **Publish directory:** `dist`
+
+---
+
+## 🧩 Methodology
+
+- **ITCSS** — style architecture (settings, tools, generic, elements, objects, components, utilities)
+- **BEM** — CSS class naming convention
+- **OOCSS** — reusable object classes (`o-container`, `o-section`)
+- Responsive, *mobile-first* design
+
+---
+
+## 🧰 Built With
+
+### Core
+
+| Technology | Purpose |
 | --- | --- |
-| [Parcel v2](https://parceljs.org) | Empaquetador - servidor de desarrollo, build de producción, pipeline de assets |
-| [Sass/SCSS](https://sass-lang.com) | Preprocesador CSS - variables, anidado, funciones, mixins, parciales (`@parcel/transformer-sass`) |
-| [PostHTML](https://github.com/posthtml/posthtml) | Parciales HTML mediante `posthtml-include` |
-| [Stylelint](https://stylelint.io/) | Linting de SCSS con reglas personalizadas BEM y SCSS (`stylelint-config-prettier-scss`, `stylelint-config-recommended-scss`, `stylelint-scss`) configurado en `.stylelintrc` |
+| [Parcel v2](https://parceljs.org) | Bundler — development server, production build, asset pipeline |
+| [Sass/SCSS](https://sass-lang.com) | CSS preprocessor — variables, nesting, functions, mixins, partials (`@parcel/transformer-sass`) |
+| [PostHTML](https://github.com/posthtml/posthtml) | HTML partials via `posthtml-include` |
+| [Stylelint](https://stylelint.io/) | SCSS linting with custom BEM and SCSS rules (`stylelint-config-prettier-scss`, `stylelint-config-recommended-scss`, `stylelint-scss`), configured in `.stylelintrc` |
 
-### Optimización (build de producción)
+### Optimization (production build)
 
-| Tecnología | Uso |
+| Technology | Purpose |
 | --- | --- |
-| [`lightningcss`](https://github.com/parcel-bundler/lightningcss) | Minificación y optimización de CSS (`@parcel/optimizer-css`) |
-| [`htmlnano`](https://github.com/posthtml/htmlnano) | Minificación de HTML (`@parcel/optimizer-htmlnano`) |
-| [SWC](https://swc.rs/) | Minificación de JavaScript (`@parcel/optimizer-swc`) |
-| [`sharp`](https://sharp.pixelplumbing.com/) | Transformación de imágenes y conversión a WebP (`@parcel/transformer-image`) |
+| [`lightningcss`](https://github.com/parcel-bundler/lightningcss) | CSS minification and optimization (`@parcel/optimizer-css`) |
+| [`htmlnano`](https://github.com/posthtml/htmlnano) | HTML minification (`@parcel/optimizer-htmlnano`) |
+| [SWC](https://swc.rs/) | JavaScript minification (`@parcel/optimizer-swc`) |
+| [`sharp`](https://sharp.pixelplumbing.com/) | Image transformation and WebP conversion (`@parcel/transformer-image`) |
 
-### Dependencias
+### Dependencies
 
-| Dependencia | Uso |
+| Dependency | Purpose |
 | --- | --- |
-| [AOS](https://michalsnik.github.io/aos/) | Animaciones al hacer scroll `"aos": "^2.3.4"` |
-| [Font Awesome](https://fontawesome.com/) | Iconos `"@fortawesome/fontawesome-free": "^7.2.0"` |
+| [AOS](https://michalsnik.github.io/aos/) | Scroll animations `"aos": "^2.3.4"` |
+| [Font Awesome](https://fontawesome.com/) | Icons `"@fortawesome/fontawesome-free": "^7.2.0"` |
 
-## Comandos
+---
 
-| Comando | Descripción |
+## 📜 Commands
+
+| Command | Description |
 | --- | --- |
-| `npm run start` | Inicia el servidor de desarrollo en http://localhost:1234 con recarga en vivo |
-| `npm run build` | Compila y optimiza los archivos para producción en `dist/` |
-| `npm run clean` | Elimina la carpeta `dist/` y las cachés |
-| `npm run stylelint` | Valida los archivos SCSS según las reglas configuradas |
+| `npm run start` | Starts the development server at http://localhost:1234 with live reload |
+| `npm run build` | Compiles and optimizes the files for production into `dist/` |
+| `npm run clean` | Removes the `dist/` folder and caches |
+| `npm run stylelint` | Validates the SCSS files against the configured rules |
 
-## Estructura del proyecto
+---
+
+## 📂 Project Structure
 
 ```
 src/
@@ -68,40 +116,29 @@ src/
 ├── det1.html
 ├── det2.html
 ├── links.html
-├── views/                  # Parciales PostHTML
-│   ├── partials/ 
+├── views/                  # PostHTML partials
+│   ├── partials/
 │   ├── home/
 │   ├── categoria/
 │   ├── det1/
 │   ├── det2/
 │   └── links/
 ├── assets/
-│   ├── fonts/              # Fuentes autoalojadas (Unbounded, DM Sans)
-│   ├── images/             
+│   ├── fonts/              # Self-hosted fonts (Unbounded, DM Sans)
+│   ├── images/
 │   ├── scripts/
 │   │   ├── app.js
-│   │   └── modules/        # Módulos JS (aos y header)
+│   │   └── modules/        # JS modules (aos and header)
 │   └── styles/
 │       ├── main.scss
 │       ├── _dependencies.scss
-│       ├── settings/       # Variables, fuentes
-│       ├── tools/          # Funciones, mixins
+│       ├── settings/       # Variables, fonts
+│       ├── tools/          # Functions, mixins
 │       ├── generic/        # Reset
-│       ├── elements/       # Estilos base
-│       ├── objects/        # Objetos OOCSS
-│       ├── components/     # Componentes BEM
-│       └── utilities/      # Clases de utilidad
+│       ├── elements/       # Base styles
+│       ├── objects/        # OOCSS objects
+│       ├── components/     # BEM components
+│       └── utilities/      # Utility classes
 ```
 
-## Despliegue
-
-El proyecto está desplegado en [Netlify](https://netlify.com) desde la rama `main`:
-https://uoc-ehtmlcss1-marctururoca.netlify.app/ 
-
-- **Comando de build:** `npm run build`
-- **Directorio de publicación:** `dist`
-
 ---
-
-Marc Turu Roca (https://github.com/marcturu/UOC-EHTMLCSS1-MarcTuruRoca)  
-*UOC - Herramientas HTML y CSS I - 2026*
