@@ -118,6 +118,8 @@ You can try the deployed version directly in the browser:
 ## 📂 Project Structure
 
 ```
+docs/
+screenshots/
 src/
 ├── index.html
 ├── categoria.html
@@ -148,3 +150,37 @@ src/
 │       ├── components/     # BEM components
 │       └── utilities/      # Utility classes
 ```
+
+---
+## 📷 Screenshots 
+
+### Home Page (Desktop):
+![DesktopHome](screenshots/Desktop_inicio.png)
+
+### Recipes Page (Desktop):
+![DesktopRecipes](screenshots/Desktop_recetas.png)
+
+### Tacos Page (Desktop):
+![DesktopTacos](screenshots/Desktop_tacos.png)
+
+### Nachos Page (Desktop):
+![DesktopNachos](screenshots/Desktop_nachos.png)
+
+### Links Page (Desktop):
+![DesktopLinks](screenshots/Desktop_fuentes.png)
+-
+
+### Home Page (Mobile):
+![MobileHome](screenshots/Mobile_inicio.png)
+
+### Recipes Page (Mobile):
+![MobileRecipes](screenshots/Mobile_recetas.JPG)
+
+### Tacos Page (Mobile):
+![MobileTacos](screenshots/Mobile_tacos.JPG)
+
+### Nachos Page (Mobile):
+![MobileNachos](screenshots/Mobile_nachos.JPG)
+
+### Links Page (Mobile):
+![MobileLinks](screenshots/Mobile_fuentes.png)
