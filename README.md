@@ -36,6 +36,7 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 ### Phase 2️⃣
 - Accurate **image format** decisions.
 - Three phase image optimization:
+    - (0) Original images.  
     - (1) **Resizing**.
     - (2) *sharp* configurations.
     - (3) **Format change**.
@@ -68,12 +69,20 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 
 ### Phase 3️⃣
 - Load time analysis:
-  - **Lazy loading** and **asynchronous script loading**.
-  - **[Google Insights](https://pagespeed.web.dev/)** test optimizations.
+  - (1) Original page.
+  - (2) **Lazy loading** and **asynchronous script loading**.
+  - (3) **[Google Insights](https://pagespeed.web.dev/)** test optimizations.
   > The tests were done with the **Network DevTools** with *Regular 3G*, *Disable caché* and studying the full page *load time*, *total page size*, *transferred size* sent over the network, and *number of resources loaded*.
 
- 
-#### Table with lazy loading + async scripts loading + Google Insights:  
+#### Original Firefox developer:  
+![OriginalFirefoxDeveloper](screenshots/original-firefox-developer.png)  
+#### Firefox Developer with lazy loading and async script laoding:  
+![FirefoxDeveloperWithLazyLoadingAndAsyncScriptLaoding](screenshots/firefox-developer-with.lazyloading-async.png)  
+#### Before applying Google Insights recommendations:  
+![BefroeApplyingGoogleInsightsRecommendations](screenshots/before-google-insights-tests.png)  
+#### After applying Google Insights recommendations:  
+![AfterApplyingGoogleInsightsRecommendations](screenshots/after-google-insights-tests.png)  
+#### (1 vs 2+3) Table with all optimizations:  
 ![TableWithLazyLoadingAsyncGoogleInsights](screenshots/table-with-lazyloading-async-googleinsights.png) 
 
 > And more, available at https://github.com/marcturu/saboreamexico/docs/.
