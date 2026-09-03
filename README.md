@@ -85,7 +85,7 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 #### (1 vs 2 vs 3) Table with all optimizations:  
 ![TableWithLazyLoadingAsyncGoogleInsights](screenshots/table-with-lazyloading-async-googleinsights.png) 
 
-> And more, available at https://github.com/marcturu/saboreamexico/tree/main/docs.
+> More data, information and explanations available at https://github.com/marcturu/saboreamexico/tree/main/docs.
 ---
 
 ## 🛠 Installation & Setup
