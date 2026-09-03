@@ -43,15 +43,15 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
     > The tests were done with the **Network DevTools** with *Slow 4G*, *Hard Reload* and studying the resource *size* transferred and load *time*.
 
 #### (0) Original images:  
-![OriginalImages](screenshots/original-images.png)  
+![ImagesDataOriginal](screenshots/images-data-original.png)  
 #### (1) Resized images:  
-![Resized images](screenshots/resized-images.png)  
+![ImagesDataWithResizing](screenshots/images-data-with-resizing.png)  
 #### (2) Images with *sharp*:  
-![ImagesWithSharp](screenshots/images-with-sharp.png)    
+![ImagesDataWithSharp](screenshots/images-data-with-sharp.png)    
 #### (3) Images with format change:  
-![ImagesWithFormatChange](screenshots/images-with-format-change.png)  
+![ImagesDataWithFormatChange](screenshots/images-data-with-format-change.png)  
 #### (0 vs 1+2+3) Table with all optimizations:  
-![TableWithAllOptimizations](screenshots/table-with-all-optimzations.png)  
+![TableWithOptimizations](screenshots/table-with-optimizations.png)  
 
  - Responsive image techniques:
     - **Resolution switching (size)** for images in */*, */catgeoria*, */det1* and */det2*.
@@ -59,11 +59,11 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
     - **Art direction** for images in */*, */det1* and */det2*.
 
 #### Images created for **art direction**:  
-![ArtDirection](screenshots/art-direction.png)  
+![ArtDirectionDesigns](screenshots/art-direction-designs.png)  
 #### Data from images with **art direction** applied:  
-![ImagesWithArtDirection](screenshots/images-with-art-direction.png)  
+![ImagesDataWithArtDirection](screenshots/images-data-with-art-direction.png)  
 #### Table with all optimizations + responsive image techniques:  
-![TableWithAllOptimizationAndResponsiveImageTechniques](screenshots/table-with-all-optimizations-and-responsive-images.png) 
+![TableWithOptimizationAndResponsiveImages](screenshots/table-with-optimizations-and-responsive-images.png) 
 
  - CSS element **animations**, **clip-path** usage and **SVG** addition.
 
@@ -75,15 +75,15 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
   > The tests were done with the **Network DevTools** with *Regular 3G*, *Disable caché* and studying the full page *load time*, *total page size*, *transferred size* sent over the network, and *number of resources loaded*.
 
 #### (1) Original Firefox developer:  
-![OriginalFirefoxDeveloper](screenshots/original-firefox-developer.png)  
+![FirefoxDeveloperOriginal](screenshots/firefox-developer-original.png)  
 #### (2) Firefox Developer with lazy loading and async script loading:  
-![FirefoxDeveloperWithLazyLoadingAndAsyncScriptLaoding](screenshots/firefox-developer-with.lazyloading-async.png)  
+![FirefoxDeveloperWithLazyLoadingAndAsyncScriptLoading](screenshots/firefox-developer-with-lazyloading-async.png)  
 #### (2) Before applying Google Insights recommendations:  
 ![BefroeApplyingGoogleInsightsRecommendations](screenshots/before-google-insights-tests.png)  
 #### (3) After applying Google Insights recommendations:  
 ![AfterApplyingGoogleInsightsRecommendations](screenshots/after-google-insights-tests.png)  
 #### (1 vs 2 vs 3) Table with all optimizations:  
-![TableWithLazyLoadingAsyncGoogleInsights](screenshots/table-with-lazyloading-async-googleinsights.png) 
+![TableWithLazyLoadingAsyncGoogleInsights](screenshots/table-with-optimizations-lazyloading-async-googleinsights.png) 
 
 > More data, information and explanations available at https://github.com/marcturu/saboreamexico/tree/main/docs.
 ---
