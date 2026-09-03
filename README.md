@@ -15,13 +15,42 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 
 ---
 
-## ✅ Features
+## ✅ Pages
 
 - **Home Page**: landing page presenting featured recipes and information about several regions of Mexico.
 - **Recipes Page**: a collection of 4 typical Mexican recipes.
 - **Tacos Page**: a dedicated page covering the history of **tacos**, their ingredients, and how to prepare them.
 - **Nachos Page**: a dedicated page covering the history of **nachos**, their ingredients, and how to prepare them.
 - **Sources Page**: documentation and links to the sources consulted throughout the project's development.
+
+---
+
+## ⚡ Features
+
+### Phase 1️⃣
+- Pages content.
+- Support for **old browsers**.
+- **Pre/postprocessors** usage.
+- **Semantics** and **accessibility** following the [W3C](http://www.sidar.org/traducciones/wcag20/es/#guidelines) guidelines.
+
+### Phase 2️⃣
+- Accurate **image format** decisions.
+- Three phase image optimization:
+    - **Resizing**.
+    - *sharp* configurations.
+    - **Format change**.
+ - Responsive image techniques:
+    - **Resolution switching (size)** for images in */*, */catgeoria*, */det1* and */det2*.
+    - **Resolution switching (dpi)** for the *header* and *footer* icon.
+    - **Art direction** for images in */*, */det1* and */det2*.
+ - CSS element **animations**, **clip-path** usage and **SVG** addition. 
+
+### Phase 3️⃣
+- Load time analysis:
+  - **Lazy loading** and **asynchronous script loading**.
+  - **[Google Insights](https://pagespeed.web.dev/)** test optimizations.
+
+> And more, available at https://github.com/marcturu/saboreamexico/docs/.
 
 ---
 
