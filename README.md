@@ -68,7 +68,7 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
  - CSS element **animations**, **clip-path** usage and **SVG** addition.
 
 ### Phase 3️⃣
-- Load time analysis:
+- Two phase load time analysis:
   - (1) Original page.
   - (2) **Lazy loading** and **asynchronous script loading**.
   - (3) **[Google Insights](https://pagespeed.web.dev/)** test optimizations.
