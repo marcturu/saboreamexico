@@ -39,11 +39,22 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
     - **Resizing**.
     - *sharp* configurations.
     - **Format change**.
+    > The tests were done with the **Network DevTools** with *Slow 4G*, *Hard Reload* and studying the resource *size* transferred and load *time*.
+
+#### Original images:  
+![OriginalImages](screenshots/original-images.png)  
+#### Resized images:  
+![Resized images](screenshots/resized-images.png)  
+#### Images with *sharp*:  
+![ImagesWithSharp](screenshots/images-with-sharp.png)    
+#### Images with format change:  
+![ImagesWithFormatChange](screenshots/images-with-format-change.png)  
+
  - Responsive image techniques:
     - **Resolution switching (size)** for images in */*, */catgeoria*, */det1* and */det2*.
     - **Resolution switching (dpi)** for the *header* and *footer* icon.
     - **Art direction** for images in */*, */det1* and */det2*.
- - CSS element **animations**, **clip-path** usage and **SVG** addition. 
+ - CSS element **animations**, **clip-path** usage and **SVG** addition.
 
 ### Phase 3️⃣
 - Load time analysis:
