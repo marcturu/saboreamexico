@@ -76,16 +76,16 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 
 #### Original Firefox developer:  
 ![OriginalFirefoxDeveloper](screenshots/original-firefox-developer.png)  
-#### Firefox Developer with lazy loading and async script laoding:  
+#### Firefox Developer with lazy loading and async script loading:  
 ![FirefoxDeveloperWithLazyLoadingAndAsyncScriptLaoding](screenshots/firefox-developer-with.lazyloading-async.png)  
 #### Before applying Google Insights recommendations:  
 ![BefroeApplyingGoogleInsightsRecommendations](screenshots/before-google-insights-tests.png)  
 #### After applying Google Insights recommendations:  
 ![AfterApplyingGoogleInsightsRecommendations](screenshots/after-google-insights-tests.png)  
-#### (1 vs 2+3) Table with all optimizations:  
+#### (1 vs 2 vs 3) Table with all optimizations:  
 ![TableWithLazyLoadingAsyncGoogleInsights](screenshots/table-with-lazyloading-async-googleinsights.png) 
 
-> And more, available at https://github.com/marcturu/saboreamexico/docs/.
+> And more, available at https://github.com/marcturu/saboreamexico/tree/main/docs.
 ---
 
 ## 🛠 Installation & Setup
