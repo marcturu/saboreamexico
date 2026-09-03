@@ -36,24 +36,34 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 ### Phase 2️⃣
 - Accurate **image format** decisions.
 - Three phase image optimization:
-    - **Resizing**.
-    - *sharp* configurations.
-    - **Format change**.
+    - (1) **Resizing**.
+    - (2) *sharp* configurations.
+    - (3) **Format change**.
     > The tests were done with the **Network DevTools** with *Slow 4G*, *Hard Reload* and studying the resource *size* transferred and load *time*.
 
-#### Original images:  
+#### (0) Original images:  
 ![OriginalImages](screenshots/original-images.png)  
-#### Resized images:  
+#### (1) Resized images:  
 ![Resized images](screenshots/resized-images.png)  
-#### Images with *sharp*:  
+#### (2) Images with *sharp*:  
 ![ImagesWithSharp](screenshots/images-with-sharp.png)    
-#### Images with format change:  
+#### (3) Images with format change:  
 ![ImagesWithFormatChange](screenshots/images-with-format-change.png)  
+#### (0 vs 1+2+3) Table with all optimizations:  
+![TableWithAllOptimizations](screenshots/table-with-all-optimzations.png)  
 
  - Responsive image techniques:
     - **Resolution switching (size)** for images in */*, */catgeoria*, */det1* and */det2*.
     - **Resolution switching (dpi)** for the *header* and *footer* icon.
     - **Art direction** for images in */*, */det1* and */det2*.
+
+#### Images created for **art direction**:  
+![ArtDirection](screenshots/art-direction.png)  
+#### Data from images with **art direction** applied:  
+![ImagesWithArtDirection](screenshots/images-with-art-direction.png)  
+#### Table with all optimizations + responsive image techniques:  
+![TableWithAllOptimizationAndResponsiveImageTechniques](screenshots/table-with-all-optimizations-and-responsive-images.png) 
+
  - CSS element **animations**, **clip-path** usage and **SVG** addition.
 
 ### Phase 3️⃣
