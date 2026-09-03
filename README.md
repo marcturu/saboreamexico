@@ -74,13 +74,13 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
   - (3) **[Google Insights](https://pagespeed.web.dev/)** test optimizations.
   > The tests were done with the **Network DevTools** with *Regular 3G*, *Disable caché* and studying the full page *load time*, *total page size*, *transferred size* sent over the network, and *number of resources loaded*.
 
-#### Original Firefox developer:  
+#### (1) Original Firefox developer:  
 ![OriginalFirefoxDeveloper](screenshots/original-firefox-developer.png)  
-#### Firefox Developer with lazy loading and async script loading:  
+#### (2) Firefox Developer with lazy loading and async script loading:  
 ![FirefoxDeveloperWithLazyLoadingAndAsyncScriptLaoding](screenshots/firefox-developer-with.lazyloading-async.png)  
-#### Before applying Google Insights recommendations:  
+#### (2) Before applying Google Insights recommendations:  
 ![BefroeApplyingGoogleInsightsRecommendations](screenshots/before-google-insights-tests.png)  
-#### After applying Google Insights recommendations:  
+#### (3) After applying Google Insights recommendations:  
 ![AfterApplyingGoogleInsightsRecommendations](screenshots/after-google-insights-tests.png)  
 #### (1 vs 2 vs 3) Table with all optimizations:  
 ![TableWithLazyLoadingAsyncGoogleInsights](screenshots/table-with-lazyloading-async-googleinsights.png) 
