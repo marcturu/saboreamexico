@@ -70,9 +70,13 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 - Load time analysis:
   - **Lazy loading** and **asynchronous script loading**.
   - **[Google Insights](https://pagespeed.web.dev/)** test optimizations.
+  > The tests were done with the **Network DevTools** with *Regular 3G*, *Disable caché* and studying the full page *load time*, *total page size*, *transferred size* sent over the network, and *number of resources loaded*.
+
+ 
+#### Table with lazy loading + async scripts loading + Google Insights:  
+![TableWithLazyLoadingAsyncGoogleInsights](screenshots/table-with-lazyloading-async-googleinsights.png) 
 
 > And more, available at https://github.com/marcturu/saboreamexico/docs/.
-
 ---
 
 ## 🛠 Installation & Setup
