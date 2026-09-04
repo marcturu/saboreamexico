@@ -83,7 +83,7 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 #### (3) After applying Google PageSpeed Insights recommendations:  
 ![AfterApplyingGooglePageSpeedInsightsRecommendations](screenshots/after-google-pagespeed-insights-tests.png)  
 #### (1 vs 2 vs 3) Table with all optimizations:  
-![TableWithLazyLoadingAsyncPageSpeed](screenshots/table-with-optimizations-lazyloading-async-pagespeed.png) 
+![TableWithOptimizationsResponsiveImagesLazyLoadingAsyncPageSpeed](screenshots/table-with-optimizations-responsiveimages-lazyloading-async-pagespeed.png) 
 
 > More data, information and explanations available at https://github.com/marcturu/saboreamexico/tree/main/docs.
 ---
