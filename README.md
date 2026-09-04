@@ -69,7 +69,7 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 
 ### Phase 3️⃣
 - Two phase (+ baseline) page load performance analysis:
-  - (1) Original page.
+  - (1) Original page (With **Phase 2️⃣** optimizations).
   - (2) **Lazy loading** and **asynchronous script loading**.
   - (3) **[Google PageSpeed Insights](https://pagespeed.web.dev/)** test optimizations.
   > The tests were done with the **Network DevTools** with *Regular 3G*, *Disable caché* and studying the full-page *load time*, *total page size*, *transferred size* transferred over the network, and *number of resources loaded*.
