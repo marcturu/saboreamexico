@@ -34,7 +34,7 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 - **Semantics** and **accessibility** following [W3C](http://www.sidar.org/traducciones/wcag20/es/#guidelines) guidelines.
 
 ### Phase 2️⃣
-- Appropriate **image format** selection.
+- Appropiate **image format** selection.
 - Three phase (+ baseline) image optimization:
     - (0) Original images.  
     - (1) **Resizing**.
