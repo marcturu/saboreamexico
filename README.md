@@ -28,19 +28,19 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 ## ⚡ Features
 
 ### Phase 1️⃣
-- Pages content.
-- Support for **old browsers**.
-- **Pre/postprocessors** usage.
-- **Semantics** and **accessibility** following the [W3C](http://www.sidar.org/traducciones/wcag20/es/#guidelines) guidelines.
+- Initial **configurations**.
+- Pages' **structure** and **content**.
+- Use of **preprocessors** and **postprocessors**.
+- **Semantics** and **accessibility** following [W3C](http://www.sidar.org/traducciones/wcag20/es/#guidelines) guidelines.
 
 ### Phase 2️⃣
-- Accurate **image format** decisions.
-- Three phase image optimization:
+- Appropriate **image format** selection.
+- Three phase (+ baseline) image optimization:
     - (0) Original images.  
     - (1) **Resizing**.
-    - (2) *sharp* configurations.
-    - (3) **Format change**.
-    > The tests were done with the **Network DevTools** with *Slow 4G*, *Hard Reload* and studying the resource *size* transferred and load *time*.
+    - (2) **Sharp** configuration.
+    - (3) **Format conversion**.
+    > The tests were done with the **Network DevTools** with *Slow 4G*, *Hard Reload* and studying the transferred resource *size* and loading *time*.
 
 #### (0) Original images:  
 ![ImagesDataOriginal](screenshots/images-data-original.png)  
@@ -48,15 +48,15 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
 ![ImagesDataWithResizing](screenshots/images-data-with-resizing.png)  
 #### (2) Images with *sharp*:  
 ![ImagesDataWithSharp](screenshots/images-data-with-sharp.png)    
-#### (3) Images with format change:  
-![ImagesDataWithFormatChange](screenshots/images-data-with-format-change.png)  
+#### (3) Images with format conversion:  
+![ImagesDataWithFormatConversion](screenshots/images-data-with-format-conversion.png)  
 #### (0 vs 1+2+3) Table with all optimizations:  
 ![TableWithOptimizations](screenshots/table-with-optimizations.png)  
 
  - Responsive image techniques:
-    - **Resolution switching (size)** for images in */*, */catgeoria*, */det1* and */det2*.
-    - **Resolution switching (dpi)** for the *header* and *footer* icon.
-    - **Art direction** for images in */*, */det1* and */det2*.
+    - **Resolution switching (size)** for images in `/`, `/categoria`, `/det1` and `/det2`.
+    - **Resolution switching (dpi)** for the **header** and **footer** icon.
+    - **Art direction** for images in `/`, `/det1` and `/det2`.
 
 #### Images created for **art direction**:  
 ![ArtDirectionDesigns](screenshots/art-direction-designs.png)  
@@ -68,22 +68,22 @@ This project is a **website** dedicated to **Mexican gastronomy and its recipes*
  - CSS element **animations**, **clip-path** usage and **SVG** addition.
 
 ### Phase 3️⃣
-- Two phase load time analysis:
+- Two phase (+ baseline) page load performance analysis:
   - (1) Original page.
   - (2) **Lazy loading** and **asynchronous script loading**.
-  - (3) **[Google Insights](https://pagespeed.web.dev/)** test optimizations.
-  > The tests were done with the **Network DevTools** with *Regular 3G*, *Disable caché* and studying the full page *load time*, *total page size*, *transferred size* sent over the network, and *number of resources loaded*.
+  - (3) **[Google PageSpeed Insights](https://pagespeed.web.dev/)** test optimizations.
+  > The tests were done with the **Network DevTools** with *Regular 3G*, *Disable caché* and studying the full-page *load time*, *total page size*, *transferred size* transferred over the network, and *number of resources loaded*.
 
-#### (1) Original Firefox developer:  
-![FirefoxDeveloperOriginal](screenshots/firefox-developer-original.png)  
-#### (2) Firefox Developer with lazy loading and async script loading:  
-![FirefoxDeveloperWithLazyLoadingAndAsyncScriptLoading](screenshots/firefox-developer-with-lazyloading-async.png)  
-#### (2) Before applying Google Insights recommendations:  
-![BefroeApplyingGoogleInsightsRecommendations](screenshots/before-google-insights-tests.png)  
-#### (3) After applying Google Insights recommendations:  
-![AfterApplyingGoogleInsightsRecommendations](screenshots/after-google-insights-tests.png)  
+#### (1) Original Firefox Developer Tools:  
+![FirefoxDeveloperToolsOriginal](screenshots/firefox-developer-tools-original.png)  
+#### (2) Firefox Developer Tools with lazy loading and async script loading:  
+![FirefoxDeveloperToolsWithLazyLoadingAndAsyncScriptLoading](screenshots/firefox-developer-tools-with-lazyloading-async.png)  
+#### (2) Before applying Google PageSpeed Insights recommendations:  
+![BefroeApplyingGooglePageSpeedInsightsRecommendations](screenshots/before-google-pagespeed-insights-tests.png)  
+#### (3) After applying Google PageSpeed Insights recommendations:  
+![AfterApplyingGooglePageSpeedInsightsRecommendations](screenshots/after-google-pagespeed-insights-tests.png)  
 #### (1 vs 2 vs 3) Table with all optimizations:  
-![TableWithLazyLoadingAsyncGoogleInsights](screenshots/table-with-optimizations-lazyloading-async-googleinsights.png) 
+![TableWithLazyLoadingAsyncPageSpeed](screenshots/table-with-optimizations-lazyloading-async-pagespeed.png) 
 
 > More data, information and explanations available at https://github.com/marcturu/saboreamexico/tree/main/docs.
 ---
