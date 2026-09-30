@@ -11,7 +11,9 @@
 
 <sub>🗓️ Developed in April 2026</sub>
 
-This project is a **website** dedicated to **Mexican gastronomy and its recipes**.
+**Saborea México** is a responsive, multi-page **website** dedicated to **Mexican gastronomy**. It invites visitors to discover the country's culinary traditions through featured recipes, an overview of several Mexican regions, and in-depth pages on two iconic dishes: **tacos** and **nachos**, covering their history, ingredients, and preparation.
+
+Beyond the content, the project is a hands-on exercise in **modern front-end development**: a mobile-first, accessible (W3C/WCAG) site built with **Sass**, **PostHTML** and **Parcel**, structured with **ITCSS + BEM + OOCSS**, and tuned for performance through **image optimization**, **responsive images**, **lazy loading** and **PageSpeed Insights** improvements.
 
 ---
 
